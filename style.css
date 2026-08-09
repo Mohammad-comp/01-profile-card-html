@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  background-color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 480px;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  color: #00f0ff;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  color: #f0ff00;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #ffbf36;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem auto;
+  max-width: 320px;
+  text-align: center;
+}
+
+li {
+  margin: 0.85rem 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+p {
+  color: #eb2424;
+}
+
+.profile-image {
+  display: block;
+  margin: 0 auto 1.5rem;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 3px solid #000000;
+}
